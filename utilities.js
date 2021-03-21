@@ -32,6 +32,7 @@ window.addEventListener('keydown', e => {
 window.addEventListener('keyup', e => {
     delete keys[e.keyCode];
     frogger.moving = false;
+    frogger.frameX = 0;
 })
 
 //score function
